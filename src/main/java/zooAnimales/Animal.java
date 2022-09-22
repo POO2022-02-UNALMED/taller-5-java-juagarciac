@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import gestion.Zona;
+import gestion.*;
 public class Animal {
 	private static int totalAnimales;
 	private string nombre;
@@ -72,7 +72,7 @@ public class Animal {
 		return Animal.anfibios;
 	}
 	@Override
-	public string toString() {
+	public toString() {
 		if(this.zona.size==0) {
 			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
 					}
