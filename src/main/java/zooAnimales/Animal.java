@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 package gestion;
-import gestion.*
+import gestion.*;
 public class Animal {
 	private static int totalAnimales;
 	private string nombre;
