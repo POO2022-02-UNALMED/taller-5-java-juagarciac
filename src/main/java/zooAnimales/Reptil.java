@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import zooAnimales.Animal;
+import zooAnimales.*;
 public class Reptil extends Animal{
 	private static ArrayList<Reptil> listado=new ArrayList();
 	public static int iguanas=0;
