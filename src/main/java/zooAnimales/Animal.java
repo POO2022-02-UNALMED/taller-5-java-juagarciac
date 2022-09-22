@@ -50,10 +50,10 @@ public class Animal {
 		return edad;
 	}
 	public static string movimiento() {
-	return "desplazarse"
+	return "desplazarse";
 	}
 	public static string totalPorTipo() {
-		return "Mamiferos: "+this.mamiferos+"\nAves: "+this.aves+"\nReptiles:"+this.reptiles+"\nPeces:" +this.peces+"\nAnfibios: "+this.anfibios
+		return "Mamiferos: "+this.mamiferos+"\nAves: "+this.aves+"\nReptiles:"+this.reptiles+"\nPeces:" +this.peces+"\nAnfibios: "+this.anfibios;
 	}
 	
 	public static int cantidaMamiferos() {
@@ -74,9 +74,9 @@ public class Animal {
 	@Override
 	public string toString() {
 		if(this.zona.size==0) {
-			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero() 
+			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
 					}
-		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.zona+", en el "+this.zona().getZoo().getNombre()
+		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.zona+", en el "+this.zona().getZoo().getNombre();
 				}
 	}
 

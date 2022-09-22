@@ -29,7 +29,7 @@ public class Anfibio extends Animal{
 		return new Anfibio(nombre,edad,"selva",genero,"negro y amarillo",false);
 	}
 	public static string movimiento() {
-		return "saltar"
+		return "saltar";
 		}
 
 }

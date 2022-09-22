@@ -29,7 +29,7 @@ public class Pez extends Animal{
 		return new Pez(nombre,edad,"oceano",genero,"gris",6);
 	}
 	public static string movimiento() {
-		return "nadar"
+		return "nadar";
 		}
 
 }

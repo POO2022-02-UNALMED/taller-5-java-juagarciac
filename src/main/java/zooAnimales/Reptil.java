@@ -29,7 +29,7 @@ public class Reptil extends Animal{
 		return new Reptil(nombre,edad,"humedal",genero,"verde",3);
 	}
 	public static string movimiento() {
-		return "reptar"
+		return "reptar";
 		}
 
 }

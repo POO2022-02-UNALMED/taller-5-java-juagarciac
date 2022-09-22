@@ -24,6 +24,6 @@ public class Ave extends Animal{
 		return new Ave(nombre,edad,"montanas",genero,"blanco y amarillo");
 	}
 	public static string movimiento() {
-		return "volar"
+		return "volar";
 		}
 }
