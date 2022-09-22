@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-package gestion;
 import gestion.*;
 public class Animal {
 	private static int totalAnimales;
