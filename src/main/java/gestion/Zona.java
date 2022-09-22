@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import zooAnimales.*;
-import zoologico
 public class Zona {
 	private string nombre;
 	private Zoologico zoo;
