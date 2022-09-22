@@ -12,7 +12,7 @@ public class Reptil extends Animal{
 		this.colorEscamas=colorEscamas;
 		this.largoCola=largoCola;
 		Animal.reptiles();
-		this.listado.add(this));
+		this.listado.add(this);
 	}
 	public string getColorEscamas() {
 		return colorEscamas;

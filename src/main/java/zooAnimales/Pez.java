@@ -12,7 +12,7 @@ public class Pez extends Animal{
 		this.colorEscamas=colorEscamas;
 		this.cantidadAletas=cantidadAletas;
 		Animal.peces();
-		this.listado.add(this));
+		this.listado.add(this);
 	}
 	public string getColorEscamas() {
 		return colorEscamas;

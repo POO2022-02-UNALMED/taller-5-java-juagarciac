@@ -10,7 +10,7 @@ public class Ave extends Animal{
 		super(nombre,edad,habitat,genero);
 		this.colorPlumas=colorPlumas;
 		Animal.anfibios();
-		this.listado.add(this));
+		this.listado.add(this);
 	}
 	public string getColorPlumas() {
 		return colorPlumas;
