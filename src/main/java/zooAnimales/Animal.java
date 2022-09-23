@@ -75,7 +75,6 @@ public class Animal {
 	public int valor() {
 		return this.zona.size;
 	}
-	@Override
 	public String toString() {
 		if(this.valor()==0) {
 			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();

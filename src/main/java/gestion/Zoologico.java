@@ -24,7 +24,7 @@ public class Zoologico {
 	}
 	public static int cantidadTotalAnimales() {
 		int p=0;
-		for(int i=0;i<Zoologico.zonas.size();i++) {
+		for(int i=0;i< this.zonas.size();i++) {
 			p=p+zonas[i].cantidadAnimales;
 		}
 		return p;
