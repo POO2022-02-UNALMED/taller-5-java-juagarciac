@@ -1,16 +1,16 @@
 package gestion;
 import java.util.ArrayList;
 public class Zona {
-	private string nombre;
+	private String nombre;
 	private Zoologico zoo;
 	private ArrayList<Animal> animales;
 	
-	public Zona(string nombre){
+	public Zona(String nombre){
 		this.nombre=nombre;
 		this.animales=new ArrayList<Animal>();
 		this.zoo=null;
 	}
-	public Zona(string nombre,Zoologico zoo) {
+	public Zona(String nombre,Zoologico zoo) {
 		this.nombre=nombre;
 		this.zoo=zoo;
 		this.animales=new ArrayList<Animal>();
@@ -21,7 +21,7 @@ public class Zona {
 		this.zoo=null;
 	}
 	
-	public string getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 	public Zoologico getZoo() {

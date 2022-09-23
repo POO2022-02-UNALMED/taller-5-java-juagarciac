@@ -3,10 +3,10 @@ import gestion.*;
 import java.util.ArrayList;
 public class Animal {
 	private static int totalAnimales;
-	private string nombre;
+	private String nombre;
 	private int edad;
-	private string habitat;
-	private string genero;
+	private String habitat;
+	private String genero;
 	private ArrayList<Zona> zona;
 	
 	private static int mamiferos=0;
@@ -31,29 +31,29 @@ public class Animal {
 		Animal.anfibios+=1;
 	}
 	
-	public Animal(string nombre,int edad, string habitat,string genero) {
+	public Animal(String nombre,int edad,String habitat,String genero) {
 	this.nombre=nombre;
 	this.edad=edad;
 	this.habitat=habitat;
 	this.genero=genero;
 	this.zona=new ArrayList<Animal>();
 	}
-	public string getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
-	public string getHabitat() {
+	public String getHabitat() {
 		return habitat;
 	}
-	public string getGenero() {
+	public String getGenero() {
 		return genero;
 	}
 	public int getEdad() {
 		return edad;
 	}
-	public static string movimiento() {
+	public static String movimiento() {
 	return "desplazarse";
 	}
-	public static string totalPorTipo() {
+	public static String totalPorTipo() {
 		return "Mamiferos: "+this.mamiferos+"\nAves: "+this.aves+"\nReptiles:"+this.reptiles+"\nPeces:" +this.peces+"\nAnfibios: "+this.anfibios;
 	}
 	
@@ -73,7 +73,7 @@ public class Animal {
 		return Animal.anfibios;
 	}
 	@Override
-	public string toString() {
+	public String toString() {
 		if(this.zona.size==0) {
 			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
 					}

@@ -4,26 +4,26 @@ public class Ave extends Animal{
 	private static ArrayList<Ave> listado=new ArrayList();
 	public static int halcones=0;
 	public static int aguilas=0;
-	private string colorPlumas;
+	private String colorPlumas;
 	
-	public Ave(string nombre,int edad,string habitat,string genero,string colorPlumas) {
+	public Ave(String nombre,int edad,String habitat,String genero,String colorPlumas) {
 		super(nombre,edad,habitat,genero);
 		this.colorPlumas=colorPlumas;
 		Animal.anfibios();
 		this.listado.add(this);
 	}
-	public string getColorPlumas() {
+	public String getColorPlumas() {
 		return colorPlumas;
 	}
-	public Ave crearHalcon(string nombre,int edad,string genero) {
+	public Ave crearHalcon(String nombre,int edad,String genero) {
 		Ave.halcones+=1;
 		return new Ave(nombre,edad,"montanas",genero,"cafe glorioso");
 	}
-	public Ave crearAguila(string nombre,int edad,string genero) {
+	public Ave crearAguila(String nombre,int edad,String genero) {
 		Ave.aguilas+=1;
 		return new Ave(nombre,edad,"montanas",genero,"blanco y amarillo");
 	}
-	public static string movimiento() {
+	public static String movimiento() {
 		return "volar";
 		}
 }

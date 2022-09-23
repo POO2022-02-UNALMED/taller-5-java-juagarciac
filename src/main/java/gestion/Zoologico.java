@@ -1,11 +1,11 @@
 package gestion;
 import java.util.ArrayList;
 public class Zoologico {
-	private string nombre;
-	private string ubicacion;
+	private String nombre;
+	private String ubicacion;
 	private ArrayList<Zona> zonas;
 	
-	public Zoologico(string nombre,string ubicacion){
+	public Zoologico(String nombre,String ubicacion){
 		this.nombre=nombre;
 		this.ubicacion=ubicacion;
 		this.zonas=new ArrayList<Zona>();
@@ -15,7 +15,7 @@ public class Zoologico {
 		this.ubicacion=null;
 	}
 	
-	public string getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 	public void agregarZonas(Zona zona) {
