@@ -20,7 +20,7 @@ public class Pez extends Animal{
 	public int getCantidadAletas() {
 		return cantidadAletas;
 	}
-	public pez crearSalmon(String nombre,int edad,String genero) {
+	public Pez crearSalmon(String nombre,int edad,String genero) {
 		Pez.salmones+=1;
 		return new Pez(nombre,edad,"oceano",genero,"rojo",6);
 	}
