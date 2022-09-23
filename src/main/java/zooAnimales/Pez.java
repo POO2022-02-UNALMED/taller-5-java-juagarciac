@@ -24,11 +24,11 @@ public class Pez extends Animal{
 		Pez.salmones+=1;
 		return new Pez(nombre,edad,"oceano",genero,"rojo",6);
 	}
-	public Mamifero crearBacalao(String nombre,int edad,String genero) {
+	public Pez crearBacalao(String nombre,int edad,String genero) {
 		Pez.bacalaos+=1;
 		return new Pez(nombre,edad,"oceano",genero,"gris",6);
 	}
-	public static string movimiento() {
+	public static String movimiento() {
 		return "nadar";
 		}
 

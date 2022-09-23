@@ -36,7 +36,7 @@ public class Animal {
 	this.edad=edad;
 	this.habitat=habitat;
 	this.genero=genero;
-	this.zona=new ArrayList<Animal>();
+	this.zona=new ArrayList<Zona>();
 	}
 	public String getNombre() {
 		return nombre;
@@ -72,12 +72,15 @@ public class Animal {
 	public static int cantidadAnfibios() {
 		return Animal.anfibios;
 	}
+	public int valor() {
+		return this.zona.size;
+	}
 	@Override
 	public String toString() {
-		if(this.zona.size==0) {
+		if(this.valor()==0) {
 			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
 					}
-		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.zona+", en el "+this.zona().getZoo().getNombre();
+		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+Animal.zona+", en el "+Animal.zona().getZoo().getNombre();
 				}
 	}
 

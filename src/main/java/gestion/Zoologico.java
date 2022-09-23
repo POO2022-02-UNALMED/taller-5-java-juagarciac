@@ -22,10 +22,10 @@ public class Zoologico {
 		this.zonas.add(zona);
 		zona.agregarZoo(this);
 	}
-	public int cantidadTotalAnimales() {
+	public static int cantidadTotalAnimales() {
 		int p=0;
-		for(Zona cadena: zonas) {
-			p=p+cadena.cantidadAnimales;
+		for(int i=0,i<Zoologico.zonas.size(),i++) {
+			p=p+zonas[i].cantidadAnimales;
 		}
 		return p;
 	}
