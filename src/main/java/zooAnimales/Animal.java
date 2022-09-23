@@ -54,7 +54,7 @@ public class Animal {
 	return "desplazarse";
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos: "+this.mamiferos+"\nAves: "+this.aves+"\nReptiles:"+this.reptiles+"\nPeces:" +this.peces+"\nAnfibios: "+this.anfibios;
+		return "Mamiferos: "+Animal.mamiferos+"\nAves: "+Animal.aves+"\nReptiles:"+Animal.reptiles+"\nPeces:" +Animal.peces+"\nAnfibios: "+Animal.anfibios;
 	}
 	
 	public static int cantidaMamiferos() {
