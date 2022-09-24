@@ -75,12 +75,18 @@ public class Animal {
 	public int valor() {
 		return this.zona.size;
 	}
+	public String getNombrezona(){
+		return this.zona[0].getNombre;
+	}
+	public String getzoo(){
+		return this.zona[0].getZoo.getNombre;
+	}
 	@Override
 	public String toString() {
 		if(this.valor()==0) {
 			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
 					}
-		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.zona+", en el "+this.zona().getZoo().getNombre();
+		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.getNombrezona()+", en el "+this.getzoo();
 				}
 	}
 
