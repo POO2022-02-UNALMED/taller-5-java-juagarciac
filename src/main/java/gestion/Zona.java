@@ -26,7 +26,7 @@ public class Zona {
 		return nombre;
 	}
 	public Zoologico getZoo() {
-		return this.zoo.getNombre();
+		return this.zoo;
 	}
 	public void agregarAnimales(Animal animal) {
 		this.animales.add(animal);
