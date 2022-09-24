@@ -73,13 +73,13 @@ public class Animal {
 		return Animal.anfibios;
 	}
 	public int valor() {
-		return this.zona.size;
+		return this.zona.size();
 	}
 	public String getNombrezona(){
-		return this.zona.getNombre;
+		return this.zona.getNombre();
 	}
 	public String getzoo(){
-		return this.zona.getZoo.getNombre;
+		return this.zona.getZoo().getNombre();
 	}
 	@Override
 	public String toString() {
