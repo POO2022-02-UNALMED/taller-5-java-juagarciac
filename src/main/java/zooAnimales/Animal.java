@@ -76,10 +76,10 @@ public class Animal {
 		return this.zona.size;
 	}
 	public String getNombrezona(){
-		return this.zona[0].getNombre;
+		return this.zona.getNombre;
 	}
 	public String getzoo(){
-		return this.zona[0].getZoo.getNombre;
+		return this.zona.getZoo.getNombre;
 	}
 	@Override
 	public String toString() {
