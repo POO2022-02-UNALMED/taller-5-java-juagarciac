@@ -12,6 +12,12 @@ public class Ave extends Animal{
 		Animal.anfibios();
 		this.listado.add(this);
 	}
+	public Ave() {
+		super();
+		Animal.anfibios();
+		this.colorPlumas="";
+		this.listado.add(this);
+	}
 	public String getColorPlumas() {
 		return colorPlumas;
 	}

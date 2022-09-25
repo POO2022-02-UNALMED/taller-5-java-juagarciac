@@ -14,6 +14,14 @@ public class Anfibio extends Animal{
 		Animal.anfibios();
 		this.listado.add(this);
 	}
+	public Anfibio() {
+		super();
+		Animal.anfibios();
+		this.colorPiel="";
+		this.venenoso=false;
+		this.listado.add(this);
+	}
+	
 	public String getColorPiel() {
 		return colorPiel;
 	}

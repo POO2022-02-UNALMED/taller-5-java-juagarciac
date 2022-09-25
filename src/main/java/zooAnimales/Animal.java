@@ -38,6 +38,13 @@ public class Animal {
 	this.genero=genero;
 	this.zona=new ArrayList<Zona>();
 	}
+	public Animal() {
+		this.nombre="";
+		this.edad=0;
+		this.habitat="";
+		this.genero="";
+		this.zona=new ArrayList<Zona>();
+	}
 	public String getNombre() {
 		return nombre;
 	}
