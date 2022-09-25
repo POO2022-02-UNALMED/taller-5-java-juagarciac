@@ -76,10 +76,10 @@ public class Animal {
 		return this.zona.size();
 	}
 	public String getNombrezona(){
-		return this.zona.getNombre();
+		return this.zona.get(0).getNombre();
 	}
 	public String getzoo(){
-		return this.zona.getZoo().getNombre();
+		return this.zona.get(0).getZoo().getNombre();
 	}
 	@Override
 	public String toString() {
@@ -88,6 +88,10 @@ public class Animal {
 					}
 		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.getNombrezona()+", en el "+this.getzoo();
 				}
+	}
+	public void setZona(Zona zona) {
+		this.zona.add(zona);
+		
 	}
 
 	
