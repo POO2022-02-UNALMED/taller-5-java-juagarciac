@@ -29,7 +29,7 @@ public class Zoologico {
 		}
 		return p;
 	}
-	public Zona getZona() {
+	public ArrayList<Zona> getZona() {
 		return zonas;
 	}
 }
