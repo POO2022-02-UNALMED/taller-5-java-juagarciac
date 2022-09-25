@@ -35,6 +35,8 @@ public class Mamifero extends Animal {
 		Mamifero.leones+=1;
 		return new Mamifero(nombre,edad,"selva",genero,true,4);
 	}
-	
+	public static String movimiento() {
+		return "desplazarse";
+		}
 	
 }

@@ -57,11 +57,9 @@ public class Animal {
 	public int getEdad() {
 		return edad;
 	}
-	public static String movimiento() {
-	return "desplazarse";
-	}
+	
 	public static String totalPorTipo() {
-		return "Mamiferos: "+Animal.mamiferos+"\nAves: "+Animal.aves+"\nReptiles:"+Animal.reptiles+"\nPeces:" +Animal.peces+"\nAnfibios: "+Animal.anfibios;
+		return "Mamiferos: "+Animal.mamiferos+"\nAves: "+Animal.aves+"\nReptiles: "+Animal.reptiles+"\nPeces: " +Animal.peces+"\nAnfibios: "+Animal.anfibios;
 	}
 	
 	public static int cantidaMamiferos() {
@@ -91,7 +89,7 @@ public class Animal {
 	@Override
 	public String toString() {
 		if(this.valor()==0) {
-			return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
+			return "Mi nombre es "+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero();
 					}
 		else {return "Mi nombre es"+this.getNombre()+", tengo una edad de "+this.getEdad()+", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+", la zona en la que me ubico es "+this.getNombrezona()+", en el "+this.getzoo();
 				}
