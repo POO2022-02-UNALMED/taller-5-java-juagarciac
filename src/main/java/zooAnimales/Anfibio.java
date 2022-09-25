@@ -36,7 +36,7 @@ public class Anfibio extends Animal{
 		Anfibio.salamandras+=1;
 		return new Anfibio(nombre,edad,"selva",genero,"negro y amarillo",false);
 	}
-	public static String movimiento() {
+	public String movimiento() {
 		return "saltar";
 		}
 

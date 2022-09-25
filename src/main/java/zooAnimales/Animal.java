@@ -98,7 +98,7 @@ public class Animal {
 		this.zona.add(zona);
 		
 	}
-	public static String movimiento() {
+	public String movimiento() {
 		return "desplazarse";
 		}
 	

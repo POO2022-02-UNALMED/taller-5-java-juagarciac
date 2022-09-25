@@ -9,12 +9,12 @@ public class Ave extends Animal{
 	public Ave(String nombre,int edad,String habitat,String genero,String colorPlumas) {
 		super(nombre,edad,habitat,genero);
 		this.colorPlumas=colorPlumas;
-		Animal.anfibios();
+		Animal.aves();
 		this.listado.add(this);
 	}
 	public Ave() {
 		super();
-		Animal.anfibios();
+		Animal.aves();
 		this.colorPlumas="";
 		this.listado.add(this);
 	}
@@ -29,7 +29,7 @@ public class Ave extends Animal{
 		Ave.aguilas+=1;
 		return new Ave(nombre,edad,"montanas",genero,"blanco y amarillo");
 	}
-	public static String movimiento() {
+	public String movimiento() {
 		return "volar";
 		}
 }

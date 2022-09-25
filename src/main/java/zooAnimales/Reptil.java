@@ -35,7 +35,7 @@ public class Reptil extends Animal{
 		Reptil.iguanas+=1;
 		return new Reptil(nombre,edad,"humedal",genero,"verde",3);
 	}
-	public static String movimiento() {
+	public String movimiento() {
 		return "reptar";
 		}
 

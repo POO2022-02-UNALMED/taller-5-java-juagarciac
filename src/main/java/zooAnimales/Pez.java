@@ -35,7 +35,7 @@ public class Pez extends Animal{
 		Pez.bacalaos+=1;
 		return new Pez(nombre,edad,"oceano",genero,"gris",6);
 	}
-	public static String movimiento() {
+	public String movimiento() {
 		return "nadar";
 		}
 
