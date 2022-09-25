@@ -30,7 +30,7 @@ public class Zona {
 	}
 	public void agregarAnimales(Animal animal) {
 		this.animales.add(animal);
-		animal.setzona(this);
+		animal.setZona(this);
 	}
 	public void agregarZoo(Zoologico zoo) {
 		this.zoo=zoo;
